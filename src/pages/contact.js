@@ -12,17 +12,8 @@ function ContactPage() {
       />
       <section>
 
-       <form name = "contact" method = "POST" data-netlify="true" data-netlify-honeypot="bot-field" className="mx-auto md:w-1/2">
+       <form name = "contact" method = "POST" data-netlify="true" netlify-honeypot="bot-field" className="mx-auto md:w-1/2">
           <input type="hidden" name="bot-field" />
-          <p className="leading-loose mb-8">
-            Here is an example of a form built using Tailwind.{" "}
-            More form examples are available <a
-
-              href="https://tailwindcss.com/docs/examples/forms"
-              className="font-bold no-underline text-gray-700"
-            >here</a>.
-
-          </p>
           <label
             className="block font-bold mb-2 text-xs uppercase"
             htmlFor="first-name"
