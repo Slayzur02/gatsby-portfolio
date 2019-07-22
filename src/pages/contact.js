@@ -12,7 +12,7 @@ function ContactPage() {
       />
       <section>
 
-        <form className="mx-auto md:w-1/2">
+        <form name = "contact" method = "POST" data-netlify="true" className="mx-auto md:w-1/2">
           <p className="leading-loose mb-8">
             Here is an example of a form built using Tailwind.{" "}
             More form examples are available <a
@@ -34,6 +34,7 @@ function ContactPage() {
             id="first-name"
             type="text"
             placeholder="Bill"
+            name="name"
           />
 
           <label
@@ -48,8 +49,22 @@ function ContactPage() {
             id="last-name"
             type="text"
             placeholder="Murray"
+            name="name"
           />
-
+            
+          <label
+            className="block font-bold mb-2 text-xs uppercase"
+            htmlFor="last-name"
+          >
+            Email
+          </label>
+          <input
+            className="appearance-none block bg-gray-200 mb-6 px-3 py-2 rounded-md text-gray-700 w-full"
+            id="last-name"
+            type="email"
+            placeholder="me@gmail.com"
+            name="email"
+          />
           <label
             className="block font-bold mb-2 text-xs uppercase"
             htmlFor="message"
@@ -62,9 +77,11 @@ function ContactPage() {
             id="message"
             placeholder="Say something..."
             rows="8"
+            name="message"
           />
 
           <button
+            type = "submit"
             className=" border-gray-800 hover:border-gray-700 bg-gray-700 hover:bg-gray-600 font-bold px-4 py-2 rounded text-sm text-white">
             Submit
           </button>
