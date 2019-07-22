@@ -21,37 +21,20 @@ function ContactPage() {
             >here</a>.
 
           </p>
-
           <label
             className="block font-bold mb-2 text-xs uppercase"
             htmlFor="first-name"
           >
-            First Name
+            Name
           </label>
 
           <input
             className="appearance-none block bg-gray-200 mb-6 px-3 py-2 rounded-md text-gray-700 w-full"
             id="first-name"
             type="text"
+            name="name"
             placeholder="Bill"
-            name="name"
           />
-
-          <label
-            className="block font-bold mb-2 text-xs uppercase"
-            htmlFor="last-name"
-          >
-            Last Name
-          </label>
-
-          <input
-            className="appearance-none block bg-gray-200 mb-6 px-3 py-2 rounded-md text-gray-700 w-full"
-            id="last-name"
-            type="text"
-            placeholder="Murray"
-            name="name"
-          />
-            
           <label
             className="block font-bold mb-2 text-xs uppercase"
             htmlFor="last-name"
