@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Tailwind`,
-    description: `Gatsby starter styled with Tailwind`,
-    author: `@taylorbryant`
+    title: `Anchor Of Me`,
+    description: `My own personal page. Wanna try?`,
+    author: `@Duc Anh Tran`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -24,6 +24,29 @@ module.exports = {
       options: {
         tailwind: true,
         purgeOnly: ["src/css/style.css"]
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `blog`,
+        path: `${__dirname}/src/content`,
+      },
+    },
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options:{
+        plugins: [
+          `gatsby-remark-relative-images`,
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 750,
+              linkImagesToOriginal: false,
+            }
+          }
+        ]
       }
     }
   ]

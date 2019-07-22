@@ -65,7 +65,7 @@ function ContactPage() {
           />
 
           <button
-            className="border-b-4 border-gray-800 hover:border-gray-700 bg-gray-700 hover:bg-gray-600 font-bold px-4 py-2 rounded text-sm text-white">
+            className=" border-gray-800 hover:border-gray-700 bg-gray-700 hover:bg-gray-600 font-bold px-4 py-2 rounded text-sm text-white">
             Submit
           </button>
         </form>
