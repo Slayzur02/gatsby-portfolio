@@ -53,46 +53,53 @@ class ContactPage extends Component {
         title="Contact"
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
         />
+
         <form
           name="contact"
           method="post"
-          action="/success/"
+          action="/submission/"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
           onSubmit={this.handleSubmit}
           ref={this.ContactForm}
+          className="mx-auto md:w-1/2"
         >
           <input type="hidden" name="form-name" value="contact" />
           <p hidden>
             <label>
               Don’t fill this out:{" "}
-              <input name="bot-field" onChange={this.handleChange} />
+              <input className="appearance-none block bg-gray-200 mb-6 px-3 py-2 rounded-md text-gray-700 w-full" name="bot-field" onChange={this.handleChange} />
             </label>
           </p>
+
           <p>
-            <label>
+            <label className="block font-bold mb-2 text-xs uppercase">
               Your name:
-              <br />
-              <input type="text" name="name" onChange={this.handleChange} />
-            </label>
+             </label>
+              <input placeholder="Andrew Young" className="appearance-none block bg-gray-200 mb-6 px-3 py-2 rounded-md text-gray-700 w-full" type="text" name="name" onChange={this.handleChange} />
+
           </p>
           <p>
-            <label>
+            <label className="block font-bold mb-2 text-xs uppercase" >
               Your email:
-              <br />
-              <input type="email" name="email" onChange={this.handleChange} />
             </label>
+              <input placeholder = "me@gmail.com" className="appearance-none block bg-gray-200 mb-6 px-3 py-2 rounded-md text-gray-700 w-full" type="email" name="email" onChange={this.handleChange} />
+            
           </p>
           <p>
-            <label>
+            <label className="block font-bold mb-2 text-xs uppercase">
               Message:
-              <br />
-              <textarea name="message" onChange={this.handleChange} />
             </label>
+              <textarea 
+              className="appearance-none bg-gray-200 mb-6 px-3 py-2 rounded-md text-gray-700 w-full"
+              placeholder="Say something..."
+              rows="8"
+              name="message" 
+              onChange={this.handleChange} />
+            
           </p>
           <p>
-            <button type="submit">Send</button>
-            <input type="reset" value="Eraser" />
+            <button className="border-b-4 border-gray-800 hover:border-gray-700 bg-gray-700 hover:bg-gray-600 font-bold px-4 py-2 rounded text-sm text-white" type="submit">Send</button>
           </p>
         </form>
       </Layout>
