@@ -12,7 +12,7 @@ function ContactPage() {
       />
       <section>
 
-       <form name = "contact" method = "POST" data-netlify="true" netlify-honeypot="bot-field" action = "submission.js" className="mx-auto md:w-1/2">
+       <form name = "contact" method = "POST" data-netlify="true" netlify-honeypot="bot-field" action = "./submission" className="mx-auto md:w-1/2">
           <input type="hidden" name="bot-field" />
           <label
             className="block font-bold mb-2 text-xs uppercase"
