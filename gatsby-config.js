@@ -15,7 +15,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#4dc0b5`,
         display: `minimal-ui`,
-        icon: `src/images/tailwind-icon.png`
+        icon: `src/content/images/tailwind-icon.png`
       }
     },
     `gatsby-plugin-postcss`,
@@ -32,7 +32,10 @@ module.exports = {
         name: `blog`,
         path: `${__dirname}/src/content`,
       },
+
+
     },
+    `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-transformer-remark`,
@@ -48,6 +51,6 @@ module.exports = {
           }
         ]
       }
-    }
+    },
   ]
 };
