@@ -4,6 +4,7 @@ import Img from 'gatsby-image'
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 
+import {GiPlantsAndAnimals} from 'react-icons/gi'
 import {IoMdSnow} from 'react-icons/io';
 import {IoIosApps} from 'react-icons/io';
 import dogIllustration from "../content/images/dog-illustration.svg";
@@ -44,7 +45,7 @@ function AboutPage(props){
         boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2)"
       }}>
         <div className = " icon opacity-50 text-white text-9xl hidden md:block">
-          <IoMdSnow/>
+          <GiPlantsAndAnimals/>
         </div>
         <div className="flex flex-col">
           <p className="text-6xl ">SETS</p>
