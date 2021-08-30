@@ -57,7 +57,6 @@ function AboutPage(props){
       </div>
 
 
-      <div id = "wrapper" className="flex flex-col">
       <div id="shecodesHackathon" className="flex w-full my-8 md:my-24 p-4 bg-indigo-400 " style = {{
         boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2)"
       }}>
