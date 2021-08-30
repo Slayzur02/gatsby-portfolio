@@ -47,9 +47,9 @@ function AboutPage(props){
           <IoMdSnow/>
         </div>
         <div className="flex flex-col">
-          <p className="text-6xl ">SET</p>
+          <p className="text-6xl ">SETS</p>
           <p className="text-lg ">An energy conservation company focused on bringing eco-friendly solutions to Vietnam</p>
-          <p className="text-lg ">Responsibilities: Software engineer | Full-stack developer </p>
+          <p className="text-lg ">Responsibilities: Software engineer intern | Full-stack developer </p>
           <div className="">
           <button className="float-left p-2 text-xl border-2 border-indigo-700 text-indigo-700"><a href="http://hackathon.shecodesvn.tech">See website</a> </button>
           </div>
