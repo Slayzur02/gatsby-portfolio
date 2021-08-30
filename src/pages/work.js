@@ -5,7 +5,7 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 
 import {IoMdSnow} from 'react-icons/io';
-import {IoIosApps} from 'react-icons/io'
+import {IoIosApps} from 'react-icons/io';
 import dogIllustration from "../content/images/dog-illustration.svg";
 
 function AboutPage(props){
@@ -38,7 +38,26 @@ function AboutPage(props){
       //   </figure>
       // </section>
       }
-                  <div id = "wrapper" className="flex flex-col">
+      
+      <div id = "wrapper" className="flex flex-col">
+      <div id="shecodesHackathon" className="flex w-full my-8 md:my-24 p-4 bg-indigo-400 " style = {{
+        boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2)"
+      }}>
+        <div className = " icon opacity-50 text-white text-9xl hidden md:block">
+          <IoMdSnow/>
+        </div>
+        <div className="flex flex-col">
+          <p className="text-6xl ">SET</p>
+          <p className="text-lg ">An energy conservation company focused on bringing eco-friendly solutions to Vietnam</p>
+          <p className="text-lg ">Responsibilities: Software engineer | Full-stack developer </p>
+          <div className="">
+          <button className="float-left p-2 text-xl border-2 border-indigo-700 text-indigo-700"><a href="http://hackathon.shecodesvn.tech">See website</a> </button>
+          </div>
+        </div>
+      </div>
+
+
+      <div id = "wrapper" className="flex flex-col">
       <div id="shecodesHackathon" className="flex w-full my-8 md:my-24 p-4 bg-indigo-400 " style = {{
         boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2)"
       }}>
@@ -54,6 +73,7 @@ function AboutPage(props){
           </div>
         </div>
       </div>
+
       <div id="shecodesHackathon" className="flex w-full my-8 md:my-24 p-4 bg-indigo-400 " style = {{
         boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2)"
       }}>
@@ -61,9 +81,9 @@ function AboutPage(props){
           <IoIosApps/>
         </div>
         <div className="flex flex-col">
-          <p className="text-6xl ">MINDX STORE</p>
-          <p className="text-lg ">An online store filled with emotion. You'll drop a tear when you see it.</p>
-          <p className="text-lg ">Responsibilities: Designer | Front-end developer</p>
+          <p className="text-6xl ">MINDX MENTOR</p>
+          <p className="text-lg ">One of the most recent startups teaching code to teenagers in Vietnam</p>
+          <p className="text-lg ">Responsibilities: Web Development Mentor</p>
           <div className="">
           <button className="float-left p-2 text-xl border-2 border-indigo-700 text-indigo-700"><a href="http://hackathon.shecodesvn.tech">See website</a> </button>
           </div>

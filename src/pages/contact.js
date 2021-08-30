@@ -80,7 +80,7 @@ class ContactPage extends Component {
             <label className="block font-bold mb-2 text-md uppercase text-gray-800">
               Your name:
              </label>
-              <input placeholder="Andrew Young" className="appearance-none block bg-gray-200 mb-6 px-3 py-2 rounded-md text-gray-700 w-full border-2 hover:border-indigo-400 focus:border-indigo-600" type="text" name="name" onChange={this.handleChange} />
+              <input placeholder="Anything" className="appearance-none block bg-gray-200 mb-6 px-3 py-2 rounded-md text-gray-700 w-full border-2 hover:border-indigo-400 focus:border-indigo-600" type="text" name="name" onChange={this.handleChange} />
 
           </p>
           <p>
