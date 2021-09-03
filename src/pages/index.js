@@ -51,18 +51,17 @@ function IndexPage() {
             <p className="mt-1"><a href="/anch.pdf" className = "text-teal-300">"Tran_Duc_Anh.pdf"</a> </p>
             <p className="mb-1">> Anch.skills</p>
             <p className="mt-1 mb-0"> {theleftbracket} </p>
-            <p className = "m-1"> &nbsp;&nbsp;&nbsp; CSS {theleftbracket}</p>
-            <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; TailwindCSS</p>
-                <p className = "m-1">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Bootstrap</p>
-                <p className = "m-1">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; SCSS</p>
-            <p className = "m-1"> &nbsp;&nbsp;&nbsp; {therightbracket}</p>
-
             <p className = "m-1"> &nbsp;&nbsp;&nbsp; Javascript/ Typescript {theleftbracket}</p>
             <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  React</p>
             <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Next</p>
               <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Redux</p>
               <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Gatsby</p>
             <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Node</p>
+            <p className = "m-1"> &nbsp;&nbsp;&nbsp; {therightbracket}</p>
+
+            <p className = "m-1"> &nbsp;&nbsp;&nbsp; Game Dev{theleftbracket}</p>
+            <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Unity</p>
+            <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Godot</p>
             <p className = "m-1"> &nbsp;&nbsp;&nbsp; {therightbracket}</p>
 
             <p className = "m-1"> &nbsp;&nbsp;&nbsp; Go</p>
@@ -76,6 +75,7 @@ function IndexPage() {
 
             <p className = "m-1"> &nbsp;&nbsp;&nbsp; Dev-ops {theleftbracket}</p>
             <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Github</p>
+            <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Docker</p>
             <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Netlify</p>
             <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Vercel</p>
             <p className = "m-1"> &nbsp;&nbsp;&nbsp; {therightbracket}</p>    
