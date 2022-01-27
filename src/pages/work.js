@@ -52,7 +52,7 @@ function AboutPage(props){
           <p className="text-lg ">An energy conservation company focused on bringing eco-friendly solutions to Vietnam</p>
           <p className="text-lg ">Responsibilities: Software engineer intern | Full-stack developer </p>
           <div className="">
-          <button className="float-left p-2 text-xl border-2 border-indigo-700 text-indigo-700"><a href="http://hackathon.shecodesvn.tech">See website</a> </button>
+          <button className="float-left p-2 text-xl border-2 border-indigo-700 text-indigo-700"><a href="http://www.setsintl.net/">See website</a> </button>
           </div>
         </div>
       </div>
@@ -69,7 +69,7 @@ function AboutPage(props){
           <p className="text-lg ">Event website for one of the biggest women-only hackathons of the year.</p>
           <p className="text-lg ">Responsibilities: Content creator | Front-end developer</p>
           <div className="">
-          <button className="float-left p-2 text-xl border-2 border-indigo-700 text-indigo-700"><a href="http://hackathon.shecodesvn.tech">See website</a> </button>
+          <button className="float-left p-2 text-xl border-2 border-indigo-700 text-indigo-700"><a href="https://shecodesvietnam.com/#/">See website</a> </button>
           </div>
         </div>
       </div>
@@ -85,7 +85,7 @@ function AboutPage(props){
           <p className="text-lg ">One of the most recent startups teaching code to teenagers in Vietnam</p>
           <p className="text-lg ">Responsibilities: Web Development Mentor</p>
           <div className="">
-          <button className="float-left p-2 text-xl border-2 border-indigo-700 text-indigo-700"><a href="http://hackathon.shecodesvn.tech">See website</a> </button>
+          <button className="float-left p-2 text-xl border-2 border-indigo-700 text-indigo-700"><a href="https://mindx.edu.vn/">See website</a> </button>
           </div>
         </div>
       </div>
