@@ -25,8 +25,8 @@ function IndexPage() {
         </div>
         </div>
         <p className="m-0 my-10 mb-16 text-2xl">
-          Hi, I'm Anch, a 19-year-old undergrad with a major in Computer Science. I am passionate
-          about solving hard, challenging problems, and bringing those solutions into real life applications. Check out <a href="/work" className = "text-indigo-600 hover:text-gray-800">my projects</a>  here.
+          Hi, I'm Anch, a 19-year-old undergrad with a major in Computer Science. I 
+          enjoy solving hard, challenging problems and ideas, simplifying them, and bringing solutions into real life applications. Check out <a href="/work" className = "text-indigo-600 hover:text-gray-800">my work experience</a>  here.
         </p> 
         <p className="ml-2 text-xl">
         </p>
@@ -51,38 +51,42 @@ function IndexPage() {
             <p className="mt-1"><a href="/anch.pdf" className = "text-teal-300">"Tran_Duc_Anh.pdf"</a> </p>
             <p className="mb-1">> Anch.skills</p>
             <p className="mt-1 mb-0"> {theleftbracket} </p>
-            <p className = "m-1"> &nbsp;&nbsp;&nbsp; Javascript/ Typescript {theleftbracket}</p>
-            <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  React</p>
-            <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Next</p>
-              <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Redux</p>
-              <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Gatsby</p>
-            <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Node</p>
+            <p className = "m-1"> &nbsp;&nbsp;&nbsp; Proficienct Languages {theleftbracket}</p>
+            <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Javascript</p>
+            <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Typescript</p>
+              <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Go</p>
+              <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Python</p>
+            <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Java</p>
             <p className = "m-1"> &nbsp;&nbsp;&nbsp; {therightbracket}</p>
 
-            <p className = "m-1"> &nbsp;&nbsp;&nbsp; Game Dev{theleftbracket}</p>
-            <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Unity</p>
-            <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Godot</p>
-            <p className = "m-1"> &nbsp;&nbsp;&nbsp; {therightbracket}</p>
-
-            <p className = "m-1"> &nbsp;&nbsp;&nbsp; Go</p>
-            <p className = "m-1"> &nbsp;&nbsp;&nbsp; Python</p>
-            
-            <p className = "m-1"> &nbsp;&nbsp;&nbsp; Databases {theleftbracket}</p>
-            <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  PostgresQL</p>
-            <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  MySQL</p>
+            <p className = "m-1"> &nbsp;&nbsp;&nbsp; Familiar{theleftbracket}</p>
+            <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  C</p>
+            <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  C#</p>
+            <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  PostgreSQL</p>
+            <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  MongoDB</p>
+            <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Redis</p>
             <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  GraphQL</p>
+            <p className = "m-1"> &nbsp;&nbsp;&nbsp; {therightbracket}</p>
+            
+            <p className = "m-1"> &nbsp;&nbsp;&nbsp; Frameworks & Libraries{theleftbracket}</p>
+            <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  React</p>
+            <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Redux</p>
+            <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Node.js</p>
+            <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Express</p>
+            <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Django</p>
+            <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  JavaFX</p>
+            <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  JUnit</p>
+            <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  TailwindCSS</p>
+            <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Unity</p>
             <p className = "m-1"> &nbsp;&nbsp;&nbsp; {therightbracket}</p>
 
             <p className = "m-1"> &nbsp;&nbsp;&nbsp; Dev-ops {theleftbracket}</p>
             <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Github</p>
             <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Docker</p>
-            <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Netlify</p>
-            <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Vercel</p>
+            <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  AWS</p>
+            <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Agile/Scrum</p>
+            <p className = "m-1">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  OOP/OOAD</p>
             <p className = "m-1"> &nbsp;&nbsp;&nbsp; {therightbracket}</p>    
-
-            <p className = "m-1"> &nbsp;&nbsp;&nbsp; C#</p>
-            <p className = "m-1"> &nbsp;&nbsp;&nbsp; Java</p>
-            <p className = "m-1"> &nbsp;&nbsp;&nbsp; Solidity</p>
             <p className = "m-1">{therightbracket}</p>
 
 
