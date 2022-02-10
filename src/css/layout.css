@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata');
 @import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 .Inconsolata{
   font-family: 'Inconsolata', monospace;
 }
 
 html {
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Playfair Display', serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
